@@ -465,6 +465,18 @@ img {
 	 text-decoration: none;*/
 	background: url(../images/slider/conoce_boton_over.png) 100% center no-repeat;
 }
+.btn_3 {
+  display: inline-block;
+  padding: 4px 34px 3px 33px;
+  font: 400 24px/30px 'Marvel', sans-serif;
+  color: #ffffff;
+  background: #5c0808;
+}
+.btn_3:hover {
+  color: #ffffff;
+  background: #820c15;
+  text-decoration: none;
+}
 .descargar {
 	display: inline-block;
 	/*font: 400 30px/30px 'Marvel', sans-serif;*/
@@ -494,6 +506,23 @@ img {
 		color: #ffffff !important;
 	}
 	.btn_1:hover {
+		/*color: #ffffff;
+		 background: #249f9c;
+		 text-decoration: none;*/
+		background: url(../images/slider/conoce_boton_over.png) 100% center no-repeat;
+	}
+	.btn_4 {
+		display: inline-block;
+		/*font: 400 30px/30px 'Marvel', sans-serif;*/
+		padding: 15px 70px 16px;
+		/*letter-spacing: 1.5px;*/
+		/*color: #fffff;*/
+		background: url(../images/slider/conoce_boton_up.png) 100% center no-repeat;
+		margin-left: -15%;
+		margin-bottom: -2%;
+		color: #ffffff !important;
+	}
+	.btn_4:hover {
 		/*color: #ffffff;
 		 background: #249f9c;
 		 text-decoration: none;*/

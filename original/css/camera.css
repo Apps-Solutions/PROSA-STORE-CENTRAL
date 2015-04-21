@@ -271,11 +271,11 @@
 }
 @media (max-width: 479px) {
   .camera_prev {
-    top: 35px;
+    top: 180px;
     left: 20px;
   }
   .camera_next {
-    top: 35px;
+    top: 180px;
     left: 70px;
   }
 }

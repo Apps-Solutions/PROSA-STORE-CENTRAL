@@ -1,8 +1,8 @@
 <?php
-	$owner_email='#';
+	$owner_email='fco_krazy_10@hotmail.com';
 	//SMTP server settings	
-	$host = '';
-    $port = '465';//"587";
+	$host = 'smtp.live.com';
+    $port = '587';//"587";
     $username = '';
     $password = '';
 

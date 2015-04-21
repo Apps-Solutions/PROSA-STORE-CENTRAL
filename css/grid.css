@@ -101,7 +101,7 @@ table {
 	height: 100%;
 }
 .grid_3_2 {
-	width: 770px;
+	width: 670px;
 	padding-top: 2%;
 }
 .grid_3_3 {
@@ -180,6 +180,14 @@ table {
 		float: left;
 		min-height: 1px;
 		margin-left: 20px;
+	}
+	.grid_3_1 {
+	width: 200px;
+	height: 100%;
+	}
+	.grid_3_2 {
+	width: 500px;
+	padding-top: 2%;
 	}
 	.container {
 		width: 940px;
@@ -274,6 +282,14 @@ table {
 		min-height: 1px;
 		margin-left: 20px;
 	}
+	.grid_3_1 {
+	width: 200px;
+	height: 100%;
+	}
+	.grid_3_2 {
+	width: 500px;
+	padding-top: 2%;
+	}	
 	.container {
 		width: 748px;
 	}
