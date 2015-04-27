@@ -63,7 +63,7 @@ img {
 }
 .text_5 {
 	font: 300 14px/20px 'Open Sans', sans-serif;
-	color: #A4A4A4;
+	color: #000000;
 }
 .text_6 {
 	font: 400 18px/26px 'Open Sans', sans-serif;
@@ -451,7 +451,7 @@ img {
 .btn_1 {
 	display: inline-block;
 	/*font: 400 30px/30px 'Marvel', sans-serif;*/
-	padding: 15px 70px 16px;
+	padding: 55px 70px 16px;
 	/*letter-spacing: 1.5px;*/
 	/*color: #fffff;*/
 	background: url(../images/slider/conoce_boton_up.png) 100% center no-repeat;
