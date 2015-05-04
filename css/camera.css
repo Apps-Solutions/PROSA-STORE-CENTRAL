@@ -42,7 +42,7 @@
 .cameraCont, .cameraContents {
 	height: 100%;
 	position: relative;
-	width: 65%;
+	width: 85%;
 	z-index: 1;
 }
 .cameraSlide {
@@ -331,8 +331,32 @@
 		background: #e8e8e8;
 		z-index: 0;
 		height: 200px !important;
-	}
+		
+    }
 
+	/*#slide1
+	{
+		display: none;
+		visibility: hidden;
+		img[data-src] {
+        content: attr(data-src, url(images/slides/resposive1.png);}
+	}
+	#slide2
+	{
+		display: none;
+		visibility: hidden;
+		img[data-src] {
+        content: attr(data-src, url(images/slides/resposive2.png);
+	}}
+	#slide3
+	{
+		display: none;
+		visibility: hidden;
+		img[data-src] {
+        content: attr(data-src, url(images/slides/resposive2.png);}
+	}*/
+
+	
 	.imgLoaded {
 		margin-top: 0px !important;
 		height: 200px !important;

@@ -167,10 +167,11 @@
 		var w, h;
 
 		var allImg = new Array();
+		if ($(this).attr('display', 'block')) {
 		$('> div', elem).each(function() {
 			allImg.push($(this).attr('data-src'));
 		});
-
+	}
 		var allLinks = new Array();
 		$('> div', elem).each(function() {
 			if ($(this).attr('data-link')) {

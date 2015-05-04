@@ -64,22 +64,55 @@
 			<!-- CONTENT -->
 			<section id="content">
 				<div class="camera-wrapper">
+					<script type="text/javascript">
+							if(screen.width > 499)
+							{	$("#slide1").attr("data-src", "images/slides/slide1.png");
+								//document.getElementById("slide_res1").style.visibility="visibility";
+
+							}
+							else if (screen.width<499) 
+							{
+								$("#slide1").attr("data-src", "images/slides/responsive1.png");
+								//document.getElementById("slide1").style.visibility="visibility";
+							}
+						</script>
 					<div id="camera" class="camera-wrap">
-						<div data-src="images/slides/slide1.png">
+						
+						<div data-src="images/slides/slide1.png" id="slide1" style="display:none;">
 							<div class="fadeIn camera_caption">
 								<a class="btn_1" href="prosa_10.html"></a>
 							</div>
 						</div>
-						<div data-src="images/slides/slide2.png">
+						
+						<!--<div data-src="images/slides/responsive1.png" id="slide_res1" style="display:none;">
 							<div class="fadeIn camera_caption">
-								<a href="prosa_10.html" class="btn_1"></a>
+								<a class="btn_1" href="prosa_10.html"></a>
+							</div>
+						</div>-->
+						<div data-src="images/slides/slide2.png" id="slide2">
+							<div class="fadeIn camera_caption">
+								<a class="btn_1" href="prosa_10.html"></a>
 							</div>
 						</div>
-						<div data-src="images/slides/slide3.png">
+						
+						<!--<div data-src="images/slides/responsive2.png" id="slide_res2" style="visibility:hidden;">
 							<div class="fadeIn camera_caption">
-								<a href="prosa_10.html" class="btn_1"></a>
+								<a class="btn_1" href="prosa_10.html"></a>
+							</div>
+						</div>-->
+						<div data-src="images/slides/slide3.png" id="slide3">
+							<div class="fadeIn camera_caption">
+								<a class="btn_1" href="prosa_10.html"></a>
 							</div>
 						</div>
+						
+						<!--<div data-src="images/slides/responsive3.png" id="slide_res3" style="visibility:hidden;">
+							<div class="fadeIn camera_caption">
+								<a class="btn_1" href="prosa_10.html"></a>
+							</div>
+						</div>-->
+						
+						
 					</div>
 				</div>
 			</section>
@@ -93,7 +126,6 @@
 							<a href="informacion_legal.html">Información Legal</a> || 
 							<a href="aviso_privacidad.html">Aviso de Privacidad</a> || 
 							<a href="politica_privacidad.html">Política de Seguridad de la Información</a> || 
-							<a href="#">PROSA en línea</a> || 
 							<a href="soporte.html">Ayuda y Soporte</a>
 						</p>
 						<p class="info text_4 color_4" align="center">

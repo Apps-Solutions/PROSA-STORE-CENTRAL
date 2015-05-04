@@ -69,41 +69,28 @@
     <!--========================================================
                               CONTENT
     =========================================================-->
-    <section id="content">
-        <div class="container">
-            <div class="row wrap_11">
-                <div class="grid_12">
-                    <h2 class="header_2 indent_4">Contactanos</h2>
-                </div>
-                <address>
-                                
-                                <p class="text_8">
-                                   
-                                    <br/>
-                                    PROSA-STORE. <br/>
-                                    9870 St Vincent Place, <br/>
-                                    Glasgow, DC 45 Fr 45. <br/>
-                                    Telephone: +1 800 603 6035 <br/>
-                                    FAX: +1 800 889 9898 <br/>
-                                    E-mail: <a href="#">mail@prosa.com</a>
-                                </p>
-                            </address>
-            </div>
-        </div>
-        
-            <div class="container">
-                <div class="row">
-                    
-                        <div class="wrap_10">
+    <div class="wrap_10">
                             
                         </div>
-                    
-                    <div class="grid_6">
-                        <div class="wrap_10">
-                            <h2 class="header_2 indent_2">
-                                Formulario de Contacto
-                            </h2>
-                            <form id="contact-form" >
+    <section id="content">
+        <div class="container">
+            <div class="row">
+                <div class="grid_4">
+                    <h2 class="header_2 indent_2">Contactanos</h2>              
+                                                
+                                <p class="text_8">                                   
+                                    <br/>
+                                    PROSA. <br/>
+                                    Calle y Número, <br/>
+                                    Ciudad, Estado, CP. <br/>
+                                    Teléfono:  <br/>
+                                    E-mail: <a href="#">mail@prosa.com</a>
+                                </p>
+                
+                </div>
+                <div class="grid_5">
+                    <h2 class="header_2 indent_2">Formulario de Contacto</h2>              
+                    <form id="contact-form" >
                                 <div class="contact-form-loader"></div>
                                 <fieldset>
                                     <div class="row">
@@ -115,6 +102,13 @@
                                                 <span class="error-message">*Nombre invalido.</span>
                                             </label>
                                         </div>
+                                        
+
+                                        
+                                    </div>
+                                    <div class="row">
+                                        
+                                        
                                         <div class="grid_3">
                                             <label class="email">
                                                 <input type="text" name="email" placeholder="Correo:" value=""
@@ -123,15 +117,33 @@
                                                 <span class="error-message">*Correo invalido.</span>
                                             </label>
                                         </div>
+                                       
+                                    </div>
+                                    <div class="row">
+                                        
+                                        <div class="grid_3">
+                                            <label class="name">
+                                                <input type="text" name="tema" placeholder="Tema:" value=""
+                                                       data-constraints="@Required @JustLetters"/>
+                                                <span class="empty-message">*Este campo es requerido.</span>
+                                                <span class="error-message">*Tema invalido.</span>
+                                            </label>
+                                        </div>
                                         
                                     </div>
+                                    <div class="row">
+                                        
+                                        <div class="grid_3">
                                     <label class="message">
                                         <textarea name="message" placeholder="Mensage:"
                                                   data-constraints='@Required @Length(min=20,max=999999)'></textarea>
                                         <span class="empty-message">*Este campo es requerido.</span>
                                         <span class="error-message">*El mensaje es muy corto.</span>
                                     </label>
-                                    <div class="fadeIn" align="right">
+                                    </div>
+                                        
+                                    </div>
+                                    <div class="fadeIn" align="">
                                         
                                         <a class="btn_3" href="#" data-type="reset">Limpiar</a>
                                         <a class="btn_3" href="#" data-type="submit">Enviar</a>
@@ -152,10 +164,13 @@
                                     </div>
                                 </div>
                             </form>
-                        </div>
-                    </div>
                 </div>
             </div>
+        </div>
+        <div class="wrap_10">
+                            
+                        </div>
+            
         
     </section>
 </div>
@@ -170,7 +185,6 @@
                             <a href="informacion_legal.html">Información Legal</a> || 
                             <a href="aviso_privacidad.html">Aviso de Privacidad</a> || 
                             <a href="politica_privacidad.html">Política de Seguridad de la Información</a> || 
-                            <a href="#">PROSA en línea</a> || 
                             <a href="soporte.html">Ayuda y Soporte</a>
                         </p>
                         <p class="info text_4 color_4" align="center">
