@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ayuda y Soporte</title>
+    <meta charset="utf-8">
+        <meta name="format-detection" content="telephone=no"/>
+        <link rel="icon" href="images/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/camera.css"/>
+        <link rel="stylesheet" href="css/owl.carousel.css"/>
+        <link rel="stylesheet" href="css/contact-form.css"/>
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery-migrate-1.2.1.js"></script>
+        <script src="js/jquery.equalheights.js"></script>
+        <!--[if (gt IE 9)|!(IE)]><!-->
+        <script src="js/jquery.mobile.customized.min.js"></script>
+        <!--<![endif]-->
+        <script src="js/camera.js"></script>
+        <script src="js/owl.carousel.js"></script>
+        <script src='js/modal.js'></script>
+        <script src='js/TMForm.js'></script>
+    <!--[if lt IE 9]>
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+            <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0"
+                 height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a>
+    </div>
+    <script src="js/html5shiv.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+    <![endif]-->
+</head>
+<body>
+<div class="page">
+    <!--========================================================
+                              HEADER
+    =========================================================-->
+    <header id="header">
+                <div id="stuck_container" style="background-color: #ededed;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="grid_12">
+                                <div class="brand put-left">
+                                    <h1><a href="index.html"> <img src="images/logo.png" alt="Logo"/> </a></h1>
+                                </div>
+                                <nav class="nav put-right">
+                                    <ul class="sf-menu">
+                                        <li class="current">
+                                            <a href="index.html">Inicio</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Aplicaciones</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="prosa_10.html">Aplicación 1</a>
+                                                </li>
+                                                
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+    <!--========================================================
+                              CONTENT
+    =========================================================-->
+    <div class="wrap_10">
+                            
+                        </div>
+    <section id="content">
+        <div class="container">
+            <div class="row">
+                <div class="grid_4">
+                    <h2 class="header_2 indent_2">Contactanos</h2>              
+                                                
+                                <p class="text_8">                                   
+                                    <br/>
+                                    PROSA. <br/>
+                                    Calle y Número, <br/>
+                                    Ciudad, Estado, CP. <br/>
+                                    Teléfono:  <br/>
+                                    E-mail: <a href="#">mail@prosa.com</a>
+                                </p>
+                
+                </div>
+                <div class="grid_5">
+                    <h2 class="header_2 indent_2">Formulario de Contacto</h2>              
+                    <form id="contact-form" >
+                                <div class="contact-form-loader"></div>
+                                <fieldset>
+                                    <div class="row">
+                                        <div class="grid_3">
+                                            <label class="name">
+                                                <input type="text" name="name" placeholder="Nombre:" value=""
+                                                       data-constraints="@Required @JustLetters"/>
+                                                <span class="empty-message">*Este campo es requerido.</span>
+                                                <span class="error-message">*Nombre invalido.</span>
+                                            </label>
+                                        </div>
+                                        
+
+                                        
+                                    </div>
+                                    <div class="row">
+                                        
+                                        
+                                        <div class="grid_3">
+                                            <label class="email">
+                                                <input type="text" name="email" placeholder="Correo:" value=""
+                                                       data-constraints="@Required @Email"/>
+                                                <span class="empty-message">*Este campo es requerido.</span>
+                                                <span class="error-message">*Correo invalido.</span>
+                                            </label>
+                                        </div>
+                                       
+                                    </div>
+                                    <div class="row">
+                                        
+                                        <div class="grid_3">
+                                            <label class="name">
+                                                <input type="text" name="tema" placeholder="Tema:" value=""
+                                                       data-constraints="@Required @JustLetters"/>
+                                                <span class="empty-message">*Este campo es requerido.</span>
+                                                <span class="error-message">*Tema invalido.</span>
+                                            </label>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="row">
+                                        
+                                        <div class="grid_3">
+                                    <label class="message">
+                                        <textarea name="message" placeholder="Mensage:"
+                                                  data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+                                        <span class="empty-message">*Este campo es requerido.</span>
+                                        <span class="error-message">*El mensaje es muy corto.</span>
+                                    </label>
+                                    </div>
+                                        
+                                    </div>
+                                    <div class="fadeIn" align="">
+                                        
+                                        <a class="btn_3" href="#" data-type="reset">Limpiar</a>
+                                        <a class="btn_3" href="#" data-type="submit">Enviar</a>
+                                    </div>
+                                </fieldset>
+                                <div class="modal fade response-message">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                        aria-hidden="true">&times;</button>
+                                                <h4 class="modal-title">Exito!!</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                Su mensaje ha sido enviado! Estaremos en contacto pronto.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                </div>
+            </div>
+        </div>
+        <div class="wrap_10">
+                            
+                        </div>
+            
+        
+    </section>
+</div>
+<!--========================================================
+                          FOOTER
+=========================================================-->
+<footer id="footer" class="color_9">
+            <div class="container">
+                <div class="row">
+                    <div class="grid_12">
+                        <p class="info text_4 color_4" align="center" style="margin-top: 1%;">
+                            <a href="informacion_legal.html">Información Legal</a> || 
+                            <a href="aviso_privacidad.html">Aviso de Privacidad</a> || 
+                            <a href="politica_privacidad.html">Política de Seguridad de la Información</a> || 
+                            <a href="soporte.html">Ayuda y Soporte</a>
+                        </p>
+                        <p class="info text_4 color_4" align="center">
+                            © 2014. Promoción y Operación, S.A. de C.V. Derechos Reservados
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+<script src="js/script.js"></script>
+</body>
+</html>

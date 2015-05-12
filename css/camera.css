@@ -319,7 +319,8 @@
 		display: none !important;
 	}
 }
-@media (max-width: 479px) {
+@media (max-width: 490px) {
+	
 	.camera-wrapper {
 		margin-top: 19%;
 		margin-bottom: 19%;
@@ -333,30 +334,6 @@
 		height: 200px !important;
 		
     }
-
-	/*#slide1
-	{
-		display: none;
-		visibility: hidden;
-		img[data-src] {
-        content: attr(data-src, url(images/slides/resposive1.png);}
-	}
-	#slide2
-	{
-		display: none;
-		visibility: hidden;
-		img[data-src] {
-        content: attr(data-src, url(images/slides/resposive2.png);
-	}}
-	#slide3
-	{
-		display: none;
-		visibility: hidden;
-		img[data-src] {
-        content: attr(data-src, url(images/slides/resposive2.png);}
-	}*/
-
-	
 	.imgLoaded {
 		margin-top: 0px !important;
 		height: 200px !important;
@@ -372,4 +349,5 @@
 		top: 175px;
 		left: 50px;
 	}
+	
 }

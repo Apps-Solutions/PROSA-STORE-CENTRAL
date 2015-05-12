@@ -28,6 +28,24 @@
 		<script src="js/html5shiv.js"></script>
 		<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
 		<![endif]-->
+		<script type="text/javascript">
+		$(window).resize(function () {
+    		//$('#text').text('Browser (Width : ' + $(window).width() + ' , Height :' + $(window).height() + ' )');
+    		
+    		if($(window).width() > 499)
+			{
+				$('#slide1').attr('data-src', 'images/slides/slide1.png');
+				$('#slide2').attr('data-src', 'images/slides/slide2.png');
+				$('#slide3').attr('data-src', 'images/slides/slide3.png');
+			}
+			else if ($(window).width() < 498) 
+			{
+				$('#slide1').attr('data-src', 'images/slides/responsive1.png');
+				$('#slide2').attr('data-src', 'images/slides/responsive2.png');
+				$('#slide3').attr('data-src', 'images/slides/responsive3.png');
+			}
+		});
+		</script>
 	</head>
 	<body>
 		<div class="page">
@@ -64,58 +82,31 @@
 			<!-- CONTENT -->
 			<section id="content">
 				<div class="camera-wrapper">
-					<script type="text/javascript">
-							if(screen.width > 499)
-							{	$("#slide1").attr("data-src", "images/slides/slide1.png");
-								//document.getElementById("slide_res1").style.visibility="visibility";
-
-							}
-							else if (screen.width<499) 
-							{
-								$("#slide1").attr("data-src", "images/slides/responsive1.png");
-								//document.getElementById("slide1").style.visibility="visibility";
-							}
-						</script>
-					<div id="camera" class="camera-wrap">
-						
-						<div data-src="images/slides/slide1.png" id="slide1" style="display:none;">
+					
+					<div id="camera" class="camera-wrap" >						
+						<div data-src="images/slides/slide1.png" id="slide1" >
 							<div class="fadeIn camera_caption">
 								<a class="btn_1" href="prosa_10.html"></a>
 							</div>
 						</div>
 						
-						<!--<div data-src="images/slides/responsive1.png" id="slide_res1" style="display:none;">
-							<div class="fadeIn camera_caption">
-								<a class="btn_1" href="prosa_10.html"></a>
-							</div>
-						</div>-->
-						<div data-src="images/slides/slide2.png" id="slide2">
+						<div data-src="images/slides/slide2.png" id="slide2" >
 							<div class="fadeIn camera_caption">
 								<a class="btn_1" href="prosa_10.html"></a>
 							</div>
 						</div>
 						
-						<!--<div data-src="images/slides/responsive2.png" id="slide_res2" style="visibility:hidden;">
-							<div class="fadeIn camera_caption">
-								<a class="btn_1" href="prosa_10.html"></a>
-							</div>
-						</div>-->
+					
 						<div data-src="images/slides/slide3.png" id="slide3">
 							<div class="fadeIn camera_caption">
 								<a class="btn_1" href="prosa_10.html"></a>
 							</div>
-						</div>
-						
-						<!--<div data-src="images/slides/responsive3.png" id="slide_res3" style="visibility:hidden;">
-							<div class="fadeIn camera_caption">
-								<a class="btn_1" href="prosa_10.html"></a>
-							</div>
-						</div>-->
-						
+						</div>						
 						
 					</div>
 				</div>
 			</section>
+			<div id="text"></div>
 		</div>
 		<!-- FOOTER -->
 		<footer id="footer" class="color_9">

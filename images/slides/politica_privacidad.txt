@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Prosa Store</title>
+		<meta charset="utf-8">
+		<meta name="format-detection" content="telephone=no"/>
+		<link rel="icon" href="images/favicon.png" type="image/x-icon">
+		<link rel="stylesheet" href="css/grid.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/camera.css"/>
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-migrate-1.2.1.js"></script>
+		<script src="js/jquery.equalheights.js"></script>
+		<!--[if (gt IE 9)|!(IE)]><!-->
+		<script src="js/jquery.mobile.customized.min.js"></script>
+		<!--<![endif]-->
+		<script src="js/camera.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<!--[if lt IE 9]>
+		<div style=' clear: both; text-align:center; position: relative;'>
+		<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+		<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0"
+		height="42" width="820"
+		alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+		</a>
+		</div>
+		<script src="js/html5shiv.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+		<![endif]-->
+	</head>
+	<body>
+		<div class="page">
+			<!-- HEADER -->
+			<header id="header">
+				<div id="stuck_container" style="background-color: #ededed;">
+					<div class="container">
+						<div class="row">
+							<div class="grid_12">
+								<div class="brand put-left">
+									<h1><a href="index.html"> <img src="images/logo.png" alt="Logo"/> </a></h1>
+								</div>
+								<nav class="nav put-right">
+									<ul class="sf-menu">
+										<li class="current">
+											<a href="index.html">Inicio</a>
+										</li>
+										<li>
+											<a href="#">Aplicaciones</a>
+											<ul>
+												<li>
+													<a href="prosa_10.html">Aplicación 1</a>
+												</li>
+												
+											</ul>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!--========================================================
+			                          CONTENT
+			=========================================================-->
+			<section id="content">
+				<div class="container">
+				    <div class="row wrap_11 wrap_12">
+				        <div class="grid_7">
+				            <h3 class="header_2 indent_1">RESÚMEN DE LA POLÍTICA DE SEGURIDAD DE LA INFORMACIÓN</h3>
+				            <div class="box_4">
+				                <p class="text_5" color="black"> 
+									
+
+
+
+En PROSA reconocemos que conducirnos con ética empresarial es la base para mantener las mejores relaciones con nuestros Clientes, Accionistas, proveedores y entre nosotros mismos como Gente PROSA.</br></br>
+
+En este marco, la administración de la Seguridad de la información que nos han confiado es un factor indispensable para el desarrollo sostenido de nuestro negocio, por lo que es uno de los Principios que guían a nuestra organización.</br></br>
+
+Para preservar la Integridad, Confidencialidad y Disponibilidad de la información, es necesario que TODOS en la cadena de valor contribuyamos en la disminución de riesgos mediante el cumplimiento de las políticas de Seguridad que presentamos a continuación y que te invitamos a conocer y cumplir:</br>
+
+• Cuando nos visites, regístrate en las áreas de recepción tanto de manera personal mediante una identificación como tu equipo de cómputo y otros objetos de valor.</br>
+
+• En caso de que cuentes con Gafete de Proximidad, pórtalo siempre en un lugar visible registrando todas tus entradas y salidas. Tu gafete es personal e intransferible, por tanto no permitas que alguien más ingrese contigo, sin el suyo.</br>
+
+• Nuestras visitas siempre deben estar acompañados al entrar y al salir de nuestras instalaciones por la gente PROSA.</br>
+
+• Respeta el acceso a las áreas restringidas Además del acceso restringido, en estas áreas no se permite tomar fotografías ni videos.</br>
+
+• Bajo ninguna circunstancia tomes información de equipos de cómputo, impresoras, cubículos ni salas de juntas si tu contacto en PROSA no te lo ha entregado.
+</br>
+• Por ningún motivo divulgues información de Prosa ni de sus Clientes sin autorización explícita de tu contacto en PROSA.</br>
+
+• Los equipos de cómputo tipo laptop y similares no pueden conectarse a la red PROSA a menos que se cuente con previa autorización del área de Seguridad Lógica y después de la revisión del antivirus por Servicios Internos.</br>
+
+• Si por alguna razón entras a alguna red "wireless", asegúrate de no estar simultáneamente y físicamente conectado a la red PROSA. La única área facultada para autorizar la instalación de una antena wifi es Seguridad Lógica.</br>
+
+• Siempre que proporciones a la gente PROSA información en dispositivos de almacenamiento digital o magnético tipo CD,DVd, flash drives, etc, verifica que los archivos no contengan virus.</br>
+
+• Si sospechas de algún Incidente de Seguridad repórtalo directamente al área de Seguridad Lógica (ext. 3363).</br>
+
+• Para cualquier duda, aclaración o sugerencia, ponemos a tu disposición las extensiones 3393, 3394, 1560, 3472 y 7764.</br></br>
+
+TODOS LOS DERECHOS RESERVADOS, © PROMOCIÓN Y OPERACIÓN, S.A. DE C. V. (PROSA) .</br></br>
+
+
+
+QUEDA ESTRICTAMENTE PROHIBIDA SU REPRODUCCIÓN TOTAL O PARCIAL, POR CUALQUIER MEDIO O FORMA, SIN LA DEBIDA AUTORIZACIÓN PREVIA Y POR ESCRITO DE SU TITULAR. </br>
+								</p>
+				            </div>
+				        </div>
+				    </div>
+				</div>
+			</section>
+		</div>
+		<!-- FOOTER -->
+		<footer id="footer" class="color_9">
+			<div class="container">
+				<div class="row">
+					<div class="grid_12">
+						<p class="info text_4 color_4" align="center" style="margin-top: 1%;">
+							<a href="informacion_legal.html">Información Legal</a> || 
+							<a href="aviso_privacidad.html">Aviso de Privacidad</a> || 
+							<a href="politica_privacidad.html">Política de Seguridad de la Información</a> || 
+							<a href="soporte.html">Ayuda y Soporte</a>
+						</p>
+						<p class="info text_4 color_4" align="center">
+							© 2014. Promoción y Operación, S.A. de C.V. Derechos Reservados
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="js/script.js"></script>
+	</body>
+</html>
